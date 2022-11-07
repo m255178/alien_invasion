@@ -2,7 +2,7 @@ import pygame
 from pygame.sprite import Sprite
 
 
-class Bullet(Sprite):
+class Bullets(Sprite):
 
     def __init__(self, ai_game):
         super().__init__()
